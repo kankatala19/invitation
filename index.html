@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <style>
+        /* Full-page background */
+        body {
+            background-image: url('C:/Users/vinay/OneDrive/Desktop/ba.jpg'); /* Background for the entire page */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .card {
+            width: 400px;
+            height: 700px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            background-image: url('C:/Users/vinay/OneDrive/Desktop/nn.avif'); /* Background for the card front */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            padding: 20px;
+            position: relative; /* Position relative for QR code placement */
+        }
+        
+        h1, h2, p {
+            margin: 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #C71585;
+        }
+        
+        .couple-names {
+            font-size: 2.5em;
+            color: #FFD700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            background-color: rgba(255, 215, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .weds {
+            font-size: 1.2em; /* Smaller size for 'weds' */
+            color: #FFD700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            margin: 10px 0;
+        }
+        
+        p {
+            font-size: 1.2em;
+            color: #FFB6C1;
+            margin: 5px 0;
+        }
+        
+        /* QR Code styling */
+        .qr-code {
+            position: absolute;
+            bottom: 20px; /* Position it 20px from the bottom */
+            left: 20px; /* Position it 20px from the left */
+            width: 80px; /* Adjust size as needed */
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>You're Invited!</h1>
+        <div class="couple-names">
+            <span>Geetha Madhuri</span>
+            <span class="weds">weds</span>
+            <span>Ashish</span>
+        </div>
+        <p>Join us for a day filled with love, joy, and celebration.</p>
+        <p>We would be honored to have you share in our happiness as we begin our journey together.</p>
+        <p>Mark your calendars and prepare for a beautiful celebration!</p>
+        <p>December 15, 2024</p>
+        <p>5:00 PM</p>
+        <p>Grand Hall, 123 Celebration Ave, Your City</p>
+        
+        <!-- QR Code Image -->
+        <img src="C:/Users/vinay/OneDrive/Desktop/qr.jpg" alt="QR Code" class="qr-code">
+    </div>
+</body>
+</html>
